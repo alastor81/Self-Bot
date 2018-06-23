@@ -1663,31 +1663,7 @@ function GetMessages(msg, data)
                     
                     --------------------------------------------------------------------
                     
-                    ---------------- CMD : web ----------------
-                    
-                    if input and input:match('^web https://(.*)') or input:match('^web (.*)') then
-                        
-                        local web = input:match('^web (.+)')
-                        
-                        function Webpage(CerNer, Company)
-                            
-                            if Company.photo then
-                                
-                                tdbot.sendPhoto(msg.chat_id, msg.id, Company.photo.sizes[0].photo.persistent_id, '')
-                                
-                                tdbot.send(msg.chat_id, msg.id, 'Description : ' .. (Company.description or 'nil') .. '\nSite Name : ' .. (Company.site_name or 'nil') .. '\nTitle : ' .. (Company.title or 'nil'), 'md')
-                                
-                            else
-                                
-                                tdbot.send(msg.chat_id, msg.id, 'Description : ' .. (Company.description or 'nil') .. '\nSite Name : ' .. (Company.site_name or 'nil') .. '\nTitle : ' .. (Company.title or 'nil'), 'md')
-                                
-                            end
-                            
-                        end
-                        
-                        tdbot.GetWeb(web, Webpage)
-                        
-                    end
+
                     
                     ---------------- CMD : calc ----------------
                     
@@ -3767,7 +3743,7 @@ Common Chat : ]]..common_chat_count
                         tdbot.getMessage(msg.chat_id, tonumber(msg.reply_to_message_id), FwMessage)
                         
                     end
-
+                    
                     ---------------- CMD : set voice ----------------
                     
                     if input and input:match('^set voice (.*)') and tonumber(msg.reply_to_message_id) > 0 then
@@ -3851,10 +3827,9 @@ Common Chat : ]]..common_chat_count
                         local s = redis:get(my.."Voices:"..InputMediaName)
                         
                         tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
-                        tdbot.sendVoice(msg.chat_id, msg.reply_to_message_id or msg.id, s,"")
+                        tdbot.sendVoice(msg.chat_id, msg.reply_to_message_id or msg.id, s, "")
                         
                     end
-                    
                     
                     if input == 'ping' then
                         
@@ -3889,32 +3864,32 @@ Common Chat : ]]..common_chat_count
         end
         
     end
+end
+
+function tdbot_update_callback(data)
     
-    function tdbot_update_callback(data)
+    if (data._ == "updateNewMessage") or (data._ == "updateNewChannelMessage") then
         
-        if (data._ == "updateNewMessage") or (data._ == "updateNewChannelMessage") then
+        GetMessages(data.message, data)
+        
+        local msg = data.message
+        
+    elseif (data._ == "updateMessageEdited") then
+        
+        GetMessages(data.message, data)
+        
+        data = data
+        
+        local function edit(sepehr, amir, hassan)
             
-            GetMessages(data.message, data)
-            
-            local msg = data.message
-            
-        elseif (data._ == "updateMessageEdited") then
-            
-            GetMessages(data.message, data)
-            
-            data = data
-            
-            local function edit(sepehr, amir, hassan)
-                
-                GetMessages(amir, data)
-                
-            end
-            
-            assert (tdbot_function ({_ = "getMessage", chat_id = data.chat_id, message_id = data.message_id}, edit, nil))
-            assert (tdbot_function ({_ = "openChat", chat_id = data.chat_id}, dl_cb, nil))
-            assert (tdbot_function ({_ = "getChats", offset_order = "9223372036854775807", offset_chat_id = 0, limit = 20}, dl_cb, nil))
+            GetMessages(amir, data)
             
         end
         
+        assert (tdbot_function ({_ = "getMessage", chat_id = data.chat_id, message_id = data.message_id}, edit, nil))
+        assert (tdbot_function ({_ = "openChat", chat_id = data.chat_id}, dl_cb, nil))
+        assert (tdbot_function ({_ = "getChats", offset_order = "9223372036854775807", offset_chat_id = 0, limit = 20}, dl_cb, nil))
+        
     end
     
+end
