@@ -3752,7 +3752,7 @@ Common Chat : ]]..common_chat_count
                             
                             if Company.content._ == 'messageVoice' then
                                 
-                                redis:set(my..'Voices:'..cmd, Company.content.sticker.sticker.persistent_id)
+                                redis:set(my..'Voices:'..cmd, Company.content.voice.voice.persistent_id)
                                 redis:sadd(my..'VoicesCloud:', cmd)
                                 
                                 if redis:get(my..'Response:') then
@@ -3769,7 +3769,7 @@ Common Chat : ]]..common_chat_count
                             
                         end
                         
-                        tdbot.getMessage(msg.chat_id, tonumber(msg.reply_to_message_id), SaveStickerAndCMD)
+                        tdbot.getMessage(msg.chat_id, tonumber(msg.reply_to_message_id), SaveVoiceAndCMD)
                         
                     end
                     
@@ -3781,7 +3781,7 @@ Common Chat : ]]..common_chat_count
                         
                         local t = 'Voices : \n'
                         
-                        for k, v in pairs(StickersCloud) do
+                        for k, v in pairs(VoiceCloud) do
                             
                             t = t..k.." - `"..v.."`\n"
                             
