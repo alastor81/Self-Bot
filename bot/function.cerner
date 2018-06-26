@@ -401,6 +401,16 @@ function sendText(chat_id, msg, text, parse)
                     }, cb, nil))
                 end
                 CerNerCompany.getUser = getUser
+
+
+
+                ---------------get user privacy ----------
+                function getpvs(cb)
+                    assert (tdbot_function ({
+                        _ = 'getUserPrivacySettingRules',
+                    }, cb, nil))
+                end
+                CerNerCompany.getpvs = getpvs
                 function Call(user_id, cb)
                     assert (tdbot_function ({
                         _ = "createCall",
