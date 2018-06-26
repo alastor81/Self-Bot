@@ -3781,7 +3781,7 @@ Common Chat : ]]..common_chat_count
                         
                         local t = 'Voices : \n'
                         
-                        for k, v in pairs(VoiceCloud) do
+                        for k, v in pairs(VoicesCloud) do
                             
                             t = t..k.." - `"..v.."`\n"
                             
