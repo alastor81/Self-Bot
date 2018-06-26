@@ -399,7 +399,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -423,7 +423,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -437,7 +437,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -468,7 +468,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -482,7 +482,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -502,7 +502,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -514,7 +514,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -536,7 +536,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -550,7 +550,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -570,7 +570,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -582,7 +582,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -606,7 +606,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -628,7 +628,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -642,7 +642,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -661,7 +661,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -686,7 +686,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -700,7 +700,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -720,7 +720,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -732,7 +732,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -754,7 +754,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -766,7 +766,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -788,7 +788,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -802,7 +802,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -822,7 +822,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -834,7 +834,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -856,7 +856,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -870,7 +870,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -890,7 +890,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -902,7 +902,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1064,7 +1064,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1094,7 +1094,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1122,7 +1122,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1171,7 +1171,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1201,7 +1201,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -1263,7 +1263,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1280,7 +1280,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1299,7 +1299,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1316,7 +1316,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1333,7 +1333,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1350,7 +1350,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1367,7 +1367,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1383,7 +1383,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1459,7 +1459,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -1484,7 +1484,7 @@ function GetMessages(msg, data)
                                     
                                 else
                                     
-                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                     
                                 end
                                 
@@ -1535,7 +1535,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -1703,7 +1703,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1720,7 +1720,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1737,7 +1737,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1753,7 +1753,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1770,7 +1770,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1787,7 +1787,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1804,7 +1804,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1821,7 +1821,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1846,7 +1846,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1903,7 +1903,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1927,7 +1927,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -1947,7 +1947,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -1983,7 +1983,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -2006,7 +2006,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -2031,7 +2031,7 @@ function GetMessages(msg, data)
                             
                         else
                             
-                            tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                            tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                             
                         end
                         
@@ -2075,7 +2075,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -2099,7 +2099,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -2145,7 +2145,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -2183,7 +2183,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -2216,7 +2216,7 @@ function GetMessages(msg, data)
                                 
                             else
                                 
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                tdbot.deleteMessages(msg.chat_id,  {[0] = msg.id})
                                 
                             end
                             
@@ -3710,7 +3710,39 @@ Common Chat : ]]..common_chat_count
                         
                     end
                     
-      ---------------- CMD : set voice ----------------
+                    ---------------- CMD : fw ----------------
+                    
+                    if input == 'fw' then
+                        
+                        local username = input:match('^fw @(.*)')
+                        
+                        function FwMessage(CerNer, Company)
+                            
+                            function FwToUsername(CerNer, Company)
+                                
+                                if Company.id then
+                                    
+                                    tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
+                                    tdbot.forwardMessage(my, msg.chat_id, {[0] = Company.id}, 1)
+                                    
+                                else
+                                    
+                                    text = 'User Not Found !'
+                                    tdbot.send(msg.chat_id, msg.id, text, 'html')
+                                    
+                                end
+                                
+                            end
+                            
+                            tdbot.ResolveUsername(username, FwToUsername)
+                            
+                        end
+                        
+                        tdbot.getMessage(msg.chat_id, tonumber(msg.reply_to_message_id), FwMessage)
+                        
+                    end
+                    
+                    ---------------- CMD : set voice ----------------
                     
                     if input and input:match('^set voice (.*)') and tonumber(msg.reply_to_message_id) > 0 then
                         
@@ -3749,7 +3781,7 @@ Common Chat : ]]..common_chat_count
                         
                         local t = 'Voices : \n'
                         
-                        for k, v in pairs(VoicesCloud) do
+                        for k, v in pairs(voicesCloud) do
                             
                             t = t..k.." - `"..v.."`\n"
                             
@@ -3796,43 +3828,6 @@ Common Chat : ]]..common_chat_count
                         tdbot.sendVoice(msg.chat_id, msg.reply_to_message_id or msg.id, s, "")
                         
                     end
-                    
-                    ---------------- CMD : fw ----------------
-                    if input and msg.content.entities and msg.content.entities[0] and msg.content.entities[0].type._ == "textEntityTypeMentionName" and input:match('^fw (.*)') and tonumber(msg.reply_to_message_id) > 0 then
-                        
-                        local ID = input:match('^fw (.*)')
-                                                
-                        print("hi")
-                        
-                        function FwMessage(CerNer, Company)
-                            
-                            if id then
-                                
-                                tdbot.deleteMessages(msg.chat_id, {[0] = msg.id})
-                                tdbot.forwardMessage(my, msg.chat_id, {[0] = id}, 1)
-                                
-                            else
-                                
-                                text = 'User Not Found !'
-                                tdbot.send(msg.chat_id, msg.id, text, 'html')
-                                
-                            end
-                            
-                        end
-                        
-                        tdbot.getMessage(msg.chat_id, tonumber(msg.reply_to_message_id), FwMessage)
-                        
-                    end
-                    ---------------- CMD : getpvs ----------------
-
-                    if input == 'test' then
-                        local id = input:match('^id (.*)')
-                        function getpvs(input1,input2)
-                            tdbot.send(msg.chat_id, msg.id,input1 .. input2,'html')
-                        end
-                        tdbot.ResolveUsername(id,getpvs)
-                    end 
-
                     
                     if input == 'ping' then
                         
