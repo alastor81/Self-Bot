@@ -1,7 +1,7 @@
 tdbot = dofile("./bot/function.cerner")
 -----------Config.File--------------------
-SUDO_ID = {497391069}
-my = '497391069'
+SUDO_ID = {556625305}
+my = '556625305'
 badkhah = {
     "None",
 }
