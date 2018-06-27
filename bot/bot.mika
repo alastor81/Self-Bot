@@ -3781,7 +3781,11 @@ Common Chat : ]]..common_chat_count
                         
                         local t = 'Voices : \n'
                         
+<<<<<<< HEAD
                         for k, v in pairs(voicesCloud) do
+=======
+                        for k, v in pairs(VoiceCloud) do
+>>>>>>> parent of cb0812b... Fix /Voices
                             
                             t = t..k.." - `"..v.."`\n"
                             
