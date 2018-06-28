@@ -110,12 +110,12 @@ function sendText(chat_id, msg, text, parse)
         local chat_member_status = {}
         if Restricted == 'Restricted' then
             chat_member_status = {
-                is_member = right[1] or 1,
-                restricted_until_date = right[2] or 0,
-                can_send_messages = right[3] or 1,
-                can_send_media_messages = right[4] or 1,
-                can_send_other_messages = right[5] or 1,
-                can_add_web_page_previews = right[6] or 1
+                is_member = right[0] or 1,
+                restricted_until_date = right[1] or 0,
+                can_send_messages = right[2] or 1,
+                can_send_media_messages = right[3] or 1,
+                can_send_other_messages = right[4] or 1,
+                can_add_web_page_previews = right[5] or 1
             }
             chat_member_status._ = 'chatMemberStatus' .. Restricted
             assert (tdbot_function ({
