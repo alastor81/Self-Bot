@@ -1855,6 +1855,11 @@ function GetMessages(msg, data)
                         tdbot.getMessage(msg.chat_id, tonumber(msg.reply_to_message_id), DelallByReply)
                         
                     end
+                    ---------------- CMD : ! ----------------
+                    if input and input:match('^& (.*)') then
+                        local text = input:match('^! (.*)')
+                        tdbot.send(msg.chat_id,msg.id,text,'html')
+                    end
 
                     ---------------- CMD : tr ----------------
                     if input and input:match('^tr (.*) (.*)') then 
