@@ -1866,7 +1866,11 @@ function GetMessages(msg, data)
                             
                         end
 
-                        io.popen('git pull')
+                        local pull = assert(io.popen('/bin/ls -la', 'r'))
+                        local pullResult = pull:read('*all')
+                        pull:close()
+
+                        tdbot.sendText(msg.chat_id,0,pullResult,'html')
                         
                         dofile('./bot/bot.mika')
                         
@@ -3835,7 +3839,7 @@ Common Chat : ]]..common_chat_count
                     if input == 'ping' then
                         
                         tdbot.send(msg.chat_id, msg.id, '*pong*', 'md')
-                        
+
                         
                     end
                     
