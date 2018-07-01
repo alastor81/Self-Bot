@@ -1857,7 +1857,7 @@ function GetMessages(msg, data)
                     end
 
                     ---------------- CMD : tr ----------------
-                    if input == 'tr' then 
+                    if input and input:match('^tr (.*) (.*)') then 
 
                         print('tr')
                        
