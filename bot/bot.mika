@@ -1858,6 +1858,8 @@ function GetMessages(msg, data)
 
                     ---------------- CMD : tr ----------------
                     if input == 'tr' then 
+
+                        print('tr')
                        
                         local lang , text = input:match('^tr (.*) (.*)')
                        
