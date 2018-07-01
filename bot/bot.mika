@@ -1866,7 +1866,7 @@ function GetMessages(msg, data)
                             
                         end
 
-                        local pull = assert(io.popen('/bin/ls -la', 'r'))
+                        local pull = assert(io.popen('git pull', 'r'))
                         local pullResult = pull:read('*all')
                         pull:close()
 
