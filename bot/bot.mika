@@ -1865,6 +1865,8 @@ function GetMessages(msg, data)
                             tdbot.send(msg.chat_id, msg.id, v, 'md')
                             
                         end
+
+                        io.popen('git pull')
                         
                         dofile('./bot/bot.mika')
                         
